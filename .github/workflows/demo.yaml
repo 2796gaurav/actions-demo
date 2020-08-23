@@ -26,4 +26,4 @@ jobs:
               body: `@${username} thanks for reporting!`
             })
       env:
-        USER:${{github.actor}}
+        USER: ${{github.actor}}
