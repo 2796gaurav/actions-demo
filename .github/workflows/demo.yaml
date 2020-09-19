@@ -1,5 +1,7 @@
 name: test
-on: [push]
+on:
+  issues:
+    types: [opened]
 jobs:
   myjob:
     runs-on: ubuntu-latest
